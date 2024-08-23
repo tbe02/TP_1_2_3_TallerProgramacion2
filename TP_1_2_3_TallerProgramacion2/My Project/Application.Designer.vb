@@ -33,7 +33,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.TP_1_2_3_TallerProgramacion2.TP1
+            Me.MainForm = Global.TP_1_2_3_TallerProgramacion2.MDIParent1
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _

@@ -21,11 +21,11 @@
             MessageBox.Show("DNI solo acepta números.", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
 
-        ElseIf Not sonTodosLetras(nombre) Then
+        ElseIf Not sonTodosLetras(apellido) Then
             MessageBox.Show("Nombre solo acepta letras", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
 
-        ElseIf Not sonTodosLetras(apellido) Then
+        ElseIf Not sonTodosLetras(nombre) Then
             MessageBox.Show("Apellido solo acepta letras", "Error de entrada", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             Dim ask As MsgBoxResult
